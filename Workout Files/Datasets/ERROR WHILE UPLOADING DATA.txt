@@ -1,0 +1,6 @@
+Unable to copy files into table.
+End of record reached while expected to parse column '"CONSUMER_COMPLAINTS"["COMPANY_PUBLIC_RESPONSE":7]' 
+File '@CONSUMER_COMPLAINTS/ui1680952745849/customer_complaints_csv.csv', line 57789, character 423 Row 57788, 
+column "CONSUMER_COMPLAINTS"["COMPANY_PUBLIC_RESPONSE":7] If you would like to continue loading when an error is encountered, 
+use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, 
+please run 'info loading_data' in a SQL client.
