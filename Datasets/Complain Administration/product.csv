@@ -1,0 +1,78 @@
+ProductID,ProductCategory,ProductSubCategory,Product
+1,Property,Non Mortgaged,PNM-001
+2,Property,Non Mortgaged,PNM-002
+3,Property,Non Mortgaged,PNM-003
+4,Mortgaged,Mortgaged Property,MMP-004
+5,Mortgaged,Mortgaged Property,MMP-005
+6,Mortgaged,Mortgaged Property,MMP-006
+7,Motor,Motor Standard,MOT-007
+8,Motor,Motor Plus,MOT-008
+9,Motor,Motor Standard,MOT-009
+10,Motor,Motor Plus,MOT-010
+11,Motor,Motor Standard,MOT-011
+12,Capital Accumulation,Single Premium,CAS-012
+13,Capital Accumulation,Single Premium,CAS-013
+14,Capital Accumulation,Single Premium,CAS-014
+15,Capital Accumulation,Single Premium,CAS-015
+16,Capital Accumulation,Single Premium,CAS-016
+17,Capital Accumulation,Single Premium,CAS-017
+18,Capital Accumulation,Single Premium,CAS-018
+19,Capital Accumulation,Single Premium,CAS-019
+20,Capital Accumulation,Single Premium,CAS-020
+21,Capital Accumulation,Single Premium,CAS-021
+22,Capital Accumulation,Single Premium,CAS-022
+23,Capital Accumulation,Periodic Premium,CAP-023
+24,Capital Accumulation,Periodic Premium,CAP-024
+25,Capital Accumulation,Periodic Premium,CAP-025
+26,Capital Accumulation,Periodic Premium,CAP-026
+27,Capital Accumulation,Periodic Premium,CAP-027
+28,Capital Accumulation,Periodic Premium,CAP-028
+29,Capital Accumulation,Periodic Premium,CAP-029
+30,Business,Non Mortgaged,BNM-030
+31,Business,Non Mortgaged,BNM-031
+32,Business,Non Mortgaged,BNM-032
+33,Business,Non Mortgaged,BNM-033
+34,Business,Non Mortgaged,BNM-034
+35,Business,Non Mortgaged,BNM-035
+36,Business,Non Mortgaged,BNM-036
+37,Business,Non Mortgaged,BNM-037
+38,Business,Non Mortgaged,BNM-038
+39,Business,Non Mortgaged,BNM-039
+40,Business,Non Mortgaged,BNM-040
+41,Business,Non Mortgaged,BNM-041
+42,Business,Mortgaged Business,BMB-042
+43,Life,Borrower Life Insurance,LBL-043
+44,Life,Borrower Life Insurance,LBL-044
+45,Life,Borrower Life Insurance,LBL-045
+46,Life,Other Life,LOL-046
+47,Health,Outpatient Care,HOC-047
+48,Health,Outpatient Care,HOC-048
+49,Health,Outpatient Care,HOC-049
+50,Health,Outpatient Care,HOC-050
+51,Health,Outpatient Care,HOC-051
+52,Health,Outpatient Care,HOC-052
+53,Health,Outpatient Care,HOC-053
+54,Health,Outpatient Care,HOC-054
+55,Health,Outpatient Care,HOC-055
+56,Health,Outpatient Care,HOC-056
+57,Health,Hospital Care,HHC-057
+58,Health,Hospital Care,HHC-058
+60,Family Protection,Personal Theft,FPT-060
+61,Other,Other,OOT-061
+62,Business,Non Mortgaged,BNM-062
+63,Health,Hospital Care,HHC-063
+64,Health,Outpatient Care,HOC-064
+65,Capital Accumulation,Single Premium,CAS-065
+66,Capital Accumulation,Single Premium,CAS-066
+67,Capital Accumulation,Single Premium,CAS-067
+68,Capital Accumulation,Periodic Premium,CAP-068
+69,Capital Accumulation,Periodic Premium,CAP-069
+70,Capital Accumulation,Periodic Premium,CAP-070
+71,Capital Accumulation,Periodic Premium,CAP-071
+72,Capital Accumulation,Single Premium,CAS-072
+73,Business,Non Mortgaged,BNM-073
+74,Life,Borrower Life Insurance,LBL-074
+75,Capital Accumulation,Single Premium,CAS-075
+76,Capital Accumulation,Single Premium,CAS-076
+77,Capital Accumulation,Single Premium,CAS-077
+78,Health,Hospital Care,HHC-078

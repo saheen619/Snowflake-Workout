@@ -1,0 +1,708 @@
+BrokerID,BrokerCode,BrokerFullName,DistributionNetwork,DistributionChannel,CommissionScheme
+73,Brk-000073,Alan Owens,Bancassurance,Bank Branches,Comm-4
+125,Brk-000125,Walter Lawrence,Bancassurance,Web banking,Comm-5
+190,Brk-000190,Peter Hunter,Bancassurance,Bank Branches,Comm-9
+242,Brk-000242,Anthony Bowman,Bancassurance,Headquarters,Bonus Based
+345,Brk-000345,Alan Howard,Bancassurance,Bank Branches,Comm-3
+820,Brk-000820,Antonio Webb,Bancassurance,Web banking,Comm-9
+858,Brk-000858,Joseph Morrison,Bancassurance,Web banking,Bonus Based
+1106,Brk-001106,Bruce Edwards,Bancassurance,Bank Branches,No Commission
+1255,Brk-001255,Benjamin Austin,Bancassurance,Bank Branches,Comm-7
+1342,Brk-001342,John Lawrence,Bancassurance,Bank Branches,Comm-2
+1419,Brk-001419,John Edwards,Bancassurance,Bank Branches,Bonus Based
+1515,Brk-001515,Keith Hernandez,Bancassurance,Bank Branches,No Commission
+1548,Brk-001548,Richard Robinson,Bancassurance,Bank Branches,No Commission
+1873,Brk-001873,Russell Burns,Bancassurance,Headquarters,Comm-2
+1875,Brk-001875,Albert Garrett,Bancassurance,Headquarters,Comm-2
+1956,Brk-001956,Philip Ramos,Bancassurance,Bank Branches,No Commission
+2103,Brk-002103,Walter Berry,Bancassurance,Bank Branches,Comm-6
+2124,Brk-002124,Henry Mills,Bancassurance,Bank Branches,Comm-2
+2500,Brk-002500,Todd Freeman,Bancassurance,Headquarters,Comm-5
+2696,Brk-002696,Robert Russell,Bancassurance,Web banking,No Commission
+7654,Brk-007654,Antonio Morales,Bancassurance,Bank Branches,Comm-2
+7671,Brk-007671,Keith West,Bancassurance,Web banking,Comm-2
+8066,Brk-008066,Kevin Rose,Bancassurance,Bank Branches,Bonus Based
+8106,Brk-008106,Jimmy Montgomery,Bancassurance,Web banking,Comm-2
+8120,Brk-008120,Raymond Mcdonald,Bancassurance,Bank Branches,Comm-2
+8359,Brk-008359,Harold Hawkins,Bancassurance,Web banking,Comm-2
+8662,Brk-008662,Philip Gonzales,Bancassurance,Bank Branches,No Commission
+8742,Brk-008742,Fred Campbell,Bancassurance,Web banking,Comm-4
+8766,Brk-008766,Phillip Lee,Bancassurance,Bank Branches,Comm-8
+8840,Brk-008840,Nicholas Clark,Bancassurance,Bank Branches,Comm-5
+9210,Brk-009210,Jose Moore,Bancassurance,Web banking,Bonus Based
+9247,Brk-009247,Gregory Mills,Bancassurance,Headquarters,Comm-4
+9646,Brk-009646,Paul Moreno,Bancassurance,Headquarters,Bonus Based
+9662,Brk-009662,Kenneth Morales,Bancassurance,Bank Branches,No Commission
+9706,Brk-009706,Howard Hansen,Bancassurance,Web banking,Comm-5
+9715,Brk-009715,Albert Ross,Bancassurance,Bank Branches,Comm-9
+9798,Brk-009798,Bruce Wallace,Bancassurance,Web banking,No Commission
+9803,Brk-009803,Charles Rice,Bancassurance,Web banking,Comm-8
+9873,Brk-009873,Lawrence Flores,Bancassurance,Web banking,Comm-2
+9998,Brk-009998,Victor Cook,Bancassurance,Web banking,Bonus Based
+10105,Brk-010105,George Hudson,Bancassurance,Web banking,Comm-7
+10106,Brk-010106,Steve Henry,Bancassurance,Headquarters,Comm-9
+10107,Brk-010107,Lawrence Stevens,Bancassurance,Bank Branches,Comm-2
+10127,Brk-010127,Jeremy Wood,Bancassurance,Bank Branches,Comm-7
+10147,Brk-010147,Albert Chavez,Bancassurance,Bank Branches,Comm-2
+10197,Brk-010197,Jonathan Brooks,Bancassurance,Bank Branches,Comm-9
+10218,Brk-010218,Ernest Fields,Bancassurance,Web banking,Comm-7
+10327,Brk-010327,Bruce Nichols,Bancassurance,Bank Branches,No Commission
+10337,Brk-010337,Aaron Howard,Bancassurance,Headquarters,Bonus Based
+10345,Brk-010345,Joseph Alexander,Bancassurance,Bank Branches,Comm-2
+10446,Brk-010446,Martin Foster,Bancassurance,Headquarters,No Commission
+10587,Brk-010587,Johnny Ross,Bancassurance,Bank Branches,Bonus Based
+10710,Brk-010710,Aaron Wheeler,Bancassurance,Bank Branches,No Commission
+10737,Brk-010737,Kevin Bell,Bancassurance,Bank Branches,Bonus Based
+10793,Brk-010793,Steven Kelly,Bancassurance,Bank Branches,Bonus Based
+10794,Brk-010794,Thomas Greene,Bancassurance,Bank Branches,Comm-4
+10850,Brk-010850,Jonathan Wagner,Bancassurance,Web banking,Bonus Based
+10917,Brk-010917,Albert Hunt,Bancassurance,Headquarters,Comm-5
+10967,Brk-010967,Matthew Rivera,Bancassurance,Web banking,Comm-2
+10973,Brk-010973,Jerry Dean,Bancassurance,Headquarters,Comm-4
+10984,Brk-010984,Gregory Lynch,Bancassurance,Headquarters,Comm-5
+10989,Brk-010989,Antonio Bell,Bancassurance,Bank Branches,Bonus Based
+10994,Brk-010994,Earl Jordan,Bancassurance,Web banking,No Commission
+11028,Brk-011028,Timothy Sims,Bancassurance,Bank Branches,Comm-2
+11051,Brk-011051,Raymond Collins,Bancassurance,Bank Branches,Comm-2
+11059,Brk-011059,Jose Brown,Bancassurance,Web banking,Comm-2
+11062,Brk-011062,Jimmy Murphy,Bancassurance,Headquarters,Comm-9
+11099,Brk-011099,Adam Morales,Bancassurance,Bank Branches,Comm-9
+11123,Brk-011123,Stephen Duncan,Bancassurance,Bank Branches,No Commission
+11146,Brk-011146,Paul Meyer,Bancassurance,Headquarters,Comm-2
+11148,Brk-011148,Victor Mccoy,Bancassurance,Web banking,Bonus Based
+11150,Brk-011150,Todd Lane,Bancassurance,Web banking,No Commission
+11157,Brk-011157,Christopher Jenkins,Bancassurance,Web banking,Comm-2
+11173,Brk-011173,Douglas Gray,Bancassurance,Web banking,Bonus Based
+11265,Brk-011265,Andrew Rodriguez,Bancassurance,Headquarters,Comm-2
+11275,Brk-011275,Joshua Crawford,Bancassurance,Web banking,Comm-8
+11277,Brk-011277,Harold Williams,Bancassurance,Bank Branches,Bonus Based
+11461,Brk-011461,Peter Mendoza,Bancassurance,Headquarters,Comm-2
+11487,Brk-011487,Charles Payne,Bancassurance,Headquarters,Comm-2
+11668,Brk-011668,Victor Reid,Bancassurance,Bank Branches,Bonus Based
+11715,Brk-011715,Jonathan Adams,Bancassurance,Web banking,Comm-8
+11747,Brk-011747,Roger Lopez,Bancassurance,Headquarters,Comm-2
+11825,Brk-011825,Roger Peters,Bancassurance,Bank Branches,Comm-5
+11916,Brk-011916,Stephen Stevens,Bancassurance,Bank Branches,Comm-2
+12038,Brk-012038,Kevin Butler,Bancassurance,Headquarters,Comm-8
+12044,Brk-012044,Andrew Bowman,Bancassurance,Headquarters,No Commission
+12065,Brk-012065,Sean Miller,Bancassurance,Bank Branches,Bonus Based
+12066,Brk-012066,Jeremy Mendoza,Bancassurance,Bank Branches,Comm-2
+12176,Brk-012176,Henry Nelson,Bancassurance,Bank Branches,No Commission
+12192,Brk-012192,Jimmy Young,Bancassurance,Bank Branches,Bonus Based
+12198,Brk-012198,Roger Robertson,Bancassurance,Bank Branches,No Commission
+12262,Brk-012262,Martin Perry,Bancassurance,Bank Branches,Comm-4
+12352,Brk-012352,Jerry Perry,Bancassurance,Bank Branches,Comm-5
+12428,Brk-012428,Patrick Ruiz,Bancassurance,Web banking,Comm-2
+12510,Brk-012510,Joshua Taylor,Bancassurance,Web banking,Comm-7
+12572,Brk-012572,Randy Howell,Bancassurance,Web banking,Comm-4
+12603,Brk-012603,James Richards,Bancassurance,Bank Branches,No Commission
+2,Brk-000002,Randy Morgan,Brokers,CDW,Comm-8
+39,Brk-000039,Louis Garrett,Brokers,CSU,Bonus Based
+133,Brk-000133,Juan Duncan,Brokers,CSU,Comm-5
+189,Brk-000189,James Freeman,Brokers,BRU,Comm-4
+207,Brk-000207,Gary Reed,Brokers,CSU,Comm-7
+221,Brk-000221,Joseph Nichols,Brokers,MKG,No Commission
+282,Brk-000282,Keith Walker,Brokers,CDW,No Commission
+300,Brk-000300,Ralph Wright,Brokers,CDW,Comm-9
+355,Brk-000355,Alan Alvarez,Brokers,CDW,Comm-2
+416,Brk-000416,Larry Myers,Brokers,CDW,Comm-3
+518,Brk-000518,Raymond Simmons,Brokers,CDW,Bonus Based
+528,Brk-000528,James Phillips,Brokers,CSU,Bonus Based
+581,Brk-000581,Todd Dixon,Brokers,CSU,Comm-5
+745,Brk-000745,Walter Gomez,Brokers,CSU,No Commission
+791,Brk-000791,Johnny Murray,Brokers,CSU,No Commission
+839,Brk-000839,Richard Dean,Brokers,CDW,Bonus Based
+842,Brk-000842,Richard Hanson,Brokers,BRU,Comm-8
+865,Brk-000865,Christopher Harper,Brokers,CSU,Comm-4
+868,Brk-000868,Gregory Perez,Brokers,CDW,Comm-3
+879,Brk-000879,Bobby Andrews,Brokers,CDW,Comm-4
+923,Brk-000923,Eric Jordan,Brokers,BRU,Comm-6
+938,Brk-000938,Thomas Wright,Brokers,CDW,Comm-6
+940,Brk-000940,Jeremy Reyes,Brokers,CSU,Comm-2
+960,Brk-000960,Raymond Moreno,Brokers,CDW,Comm-2
+974,Brk-000974,Gerald Edwards,Brokers,CDW,Comm-6
+978,Brk-000978,Harry Washington,Brokers,CDW,Comm-3
+991,Brk-000991,David Collins,Brokers,CSU,Comm-6
+994,Brk-000994,Peter Wright,Brokers,BRU,Comm-6
+1079,Brk-001079,Anthony Reynolds,Brokers,CSU,Comm-5
+1081,Brk-001081,Brandon Scott,Brokers,CDW,No Commission
+1085,Brk-001085,Daniel Stone,Brokers,BRU,Comm-3
+1092,Brk-001092,Martin Griffin,Brokers,CSU,No Commission
+1140,Brk-001140,Samuel Clark,Brokers,BRU,Bonus Based
+1200,Brk-001200,Jeremy Elliott,Brokers,CDW,Comm-7
+1201,Brk-001201,James Clark,Brokers,CDW,Comm-2
+1202,Brk-001202,Jack Wallace,Brokers,CDW,Comm-2
+1210,Brk-001210,Willie Ortiz,Brokers,BRU,Bonus Based
+1229,Brk-001229,Jonathan Duncan,Brokers,CSU,Comm-2
+1239,Brk-001239,Jimmy Wheeler,Brokers,BRU,Comm-9
+1253,Brk-001253,Jonathan Ward,Brokers,MKG,Comm-8
+1291,Brk-001291,Antonio Lynch,Brokers,CSU,Comm-2
+1308,Brk-001308,Raymond Nguyen,Brokers,BRU,Comm-8
+1309,Brk-001309,Ronald Stanley,Brokers,BRU,Comm-3
+1328,Brk-001328,Paul Bryant,Brokers,CSU,Comm-2
+1356,Brk-001356,Howard Berry,Brokers,MKG,Comm-2
+1430,Brk-001430,Steven Fuller,Brokers,CDW,Bonus Based
+1440,Brk-001440,Ralph Bryant,Brokers,BRU,Bonus Based
+1462,Brk-001462,Michael Meyer,Brokers,CSU,Bonus Based
+1465,Brk-001465,Kevin Wagner,Brokers,CDW,Bonus Based
+1491,Brk-001491,Antonio Wallace,Brokers,CDW,Comm-6
+1692,Brk-001692,Eric Ramos,Brokers,MKG,Comm-6
+1702,Brk-001702,Juan Bryant,Brokers,BRU,Bonus Based
+1706,Brk-001706,Larry Walker,Brokers,CDW,Comm-2
+1717,Brk-001717,Thomas Stanley,Brokers,CDW,Bonus Based
+1737,Brk-001737,Jimmy Nelson,Brokers,BRU,Comm-9
+1748,Brk-001748,Shawn Fernandez,Brokers,CDW,Comm-2
+1876,Brk-001876,Ronald Dean,Brokers,CSU,Comm-4
+1879,Brk-001879,Scott Campbell,Brokers,CSU,Bonus Based
+1957,Brk-001957,Carl Baker,Brokers,MKG,Comm-2
+1962,Brk-001962,Christopher Thomas,Brokers,CSU,Comm-6
+1994,Brk-001994,George Ford,Brokers,CSU,Comm-6
+1999,Brk-001999,Joseph Hill,Brokers,CSU,Comm-8
+2007,Brk-002007,Adam Harris,Brokers,CSU,Bonus Based
+2065,Brk-002065,Johnny Hudson,Brokers,CDW,Comm-3
+2129,Brk-002129,Jose Morgan,Brokers,CSU,Comm-5
+2158,Brk-002158,Henry Rose,Brokers,CDW,Comm-4
+2175,Brk-002175,George Henderson,Brokers,BRU,No Commission
+2206,Brk-002206,Harold Wheeler,Brokers,BRU,Comm-3
+2260,Brk-002260,William Torres,Brokers,CDW,Comm-9
+2309,Brk-002309,Roger Washington,Brokers,CDW,Comm-6
+2340,Brk-002340,Keith White,Brokers,MKG,Comm-9
+2477,Brk-002477,Ronald Murphy,Brokers,BRU,No Commission
+2478,Brk-002478,Gary Ryan,Brokers,MKG,Comm-8
+2502,Brk-002502,Steve George,Brokers,BRU,Comm-5
+2504,Brk-002504,Thomas Meyer,Brokers,BRU,Bonus Based
+2519,Brk-002519,Craig Russell,Brokers,CDW,Comm-9
+2601,Brk-002601,Steven Long,Brokers,CDW,Bonus Based
+2613,Brk-002613,Eugene Sullivan,Brokers,MKG,Comm-5
+2666,Brk-002666,Charles Martinez,Brokers,CSU,Bonus Based
+2671,Brk-002671,Joseph Brooks,Brokers,CDW,Bonus Based
+7797,Brk-007797,Joseph Hunter,Brokers,CSU,Bonus Based
+7949,Brk-007949,Brandon Hamilton,Brokers,CSU,Comm-6
+7950,Brk-007950,Joshua Cooper,Brokers,CDW,Comm-4
+8053,Brk-008053,Alan Reyes,Brokers,CSU,Bonus Based
+8057,Brk-008057,Terry Shaw,Brokers,BRU,Comm-7
+8201,Brk-008201,Martin Franklin,Brokers,CDW,Comm-7
+8385,Brk-008385,Henry Oliver,Brokers,CDW,Bonus Based
+8530,Brk-008530,Douglas Ramirez,Brokers,CDW,Comm-4
+8569,Brk-008569,Eugene Griffin,Brokers,BRU,Comm-7
+8797,Brk-008797,Larry Ellis,Brokers,CSU,Comm-8
+8858,Brk-008858,Charles Jordan,Brokers,CDW,No Commission
+8885,Brk-008885,Antonio Mendoza,Brokers,CSU,Comm-4
+8887,Brk-008887,Terry Thomas,Brokers,CDW,Bonus Based
+8891,Brk-008891,Walter Garcia,Brokers,CSU,Comm-5
+8932,Brk-008932,Dennis Wells,Brokers,BRU,Comm-2
+8939,Brk-008939,Frank Porter,Brokers,BRU,Bonus Based
+8965,Brk-008965,Joseph Fox,Brokers,CSU,No Commission
+8970,Brk-008970,Mark Carter,Brokers,CSU,Comm-4
+8985,Brk-008985,Dennis Bishop,Brokers,CSU,Comm-2
+8996,Brk-008996,Benjamin Kennedy,Brokers,CDW,Comm-2
+9001,Brk-009001,Raymond Murray,Brokers,CDW,Comm-9
+9051,Brk-009051,Stephen Welch,Brokers,CDW,Comm-5
+9205,Brk-009205,John Owens,Brokers,CSU,Comm-6
+9211,Brk-009211,David Fox,Brokers,CSU,Bonus Based
+9260,Brk-009260,Gerald Jordan,Brokers,MKG,Bonus Based
+9270,Brk-009270,Keith Reed,Brokers,CDW,Comm-5
+9311,Brk-009311,Howard Arnold,Brokers,CDW,Comm-6
+9370,Brk-009370,Jack Meyer,Brokers,BRU,Comm-2
+9395,Brk-009395,Russell Rose,Brokers,CSU,Comm-2
+9499,Brk-009499,Gary Snyder,Brokers,CSU,No Commission
+9559,Brk-009559,Benjamin Bryant,Brokers,BRU,Comm-3
+9560,Brk-009560,Martin Gardner,Brokers,CSU,Comm-7
+9562,Brk-009562,Paul Gardner,Brokers,CSU,Comm-6
+9601,Brk-009601,Raymond Kim,Brokers,CSU,Comm-2
+9622,Brk-009622,Ernest Russell,Brokers,BRU,No Commission
+9729,Brk-009729,Randy Payne,Brokers,CSU,Comm-2
+9813,Brk-009813,Timothy Grant,Brokers,MKG,Comm-9
+9816,Brk-009816,Eugene Garza,Brokers,MKG,Comm-7
+9856,Brk-009856,Justin Ross,Brokers,CSU,Comm-8
+9858,Brk-009858,Kevin Owens,Brokers,CDW,No Commission
+9884,Brk-009884,Fred Gonzalez,Brokers,BRU,Comm-2
+9892,Brk-009892,Carlos Stevens,Brokers,CSU,No Commission
+9958,Brk-009958,Earl Stephens,Brokers,CSU,Comm-7
+9968,Brk-009968,Michael Ferguson,Brokers,CDW,No Commission
+9970,Brk-009970,Christopher Greene,Brokers,CDW,Comm-2
+10020,Brk-010020,Frank Russell,Brokers,CDW,Comm-8
+10031,Brk-010031,Victor Chavez,Brokers,MKG,Comm-3
+10037,Brk-010037,Justin Berry,Brokers,MKG,No Commission
+10067,Brk-010067,Mark Turner,Brokers,MKG,Comm-9
+10108,Brk-010108,Todd Hawkins,Brokers,BRU,Bonus Based
+10111,Brk-010111,Gregory Harper,Brokers,BRU,Comm-8
+10116,Brk-010116,Justin Reid,Brokers,CDW,Bonus Based
+10130,Brk-010130,Richard Weaver,Brokers,CDW,Comm-3
+10160,Brk-010160,Thomas Howard,Brokers,MKG,Comm-8
+10187,Brk-010187,Robert Mason,Brokers,BRU,Comm-8
+10217,Brk-010217,Martin Patterson,Brokers,MKG,Comm-9
+10225,Brk-010225,Benjamin Reid,Brokers,CSU,Bonus Based
+10260,Brk-010260,Ralph Green,Brokers,MKG,Comm-3
+10297,Brk-010297,Anthony Ford,Brokers,CSU,Comm-8
+10324,Brk-010324,Steve Reed,Brokers,CSU,Comm-5
+10325,Brk-010325,Ronald Lane,Brokers,CDW,Bonus Based
+10326,Brk-010326,Keith Kim,Brokers,BRU,No Commission
+10359,Brk-010359,Eric Collins,Brokers,CSU,Comm-4
+10361,Brk-010361,Albert Harvey,Brokers,CSU,Comm-7
+10426,Brk-010426,Fred Morris,Brokers,CSU,Comm-2
+10443,Brk-010443,Charles Nguyen,Brokers,MKG,Comm-7
+10490,Brk-010490,Roy Garcia,Brokers,CSU,Comm-7
+10534,Brk-010534,Gerald Castillo,Brokers,BRU,Comm-6
+10550,Brk-010550,Mark Meyer,Brokers,MKG,Comm-8
+10552,Brk-010552,Jimmy Palmer,Brokers,BRU,Comm-5
+10565,Brk-010565,Roy Mills,Brokers,CSU,Comm-2
+10576,Brk-010576,Peter Fowler,Brokers,CDW,Bonus Based
+10577,Brk-010577,Gregory Cole,Brokers,CDW,Comm-2
+10601,Brk-010601,Ralph White,Brokers,BRU,No Commission
+10623,Brk-010623,Eugene Clark,Brokers,MKG,Comm-3
+10644,Brk-010644,Daniel Wagner,Brokers,CSU,Comm-3
+10659,Brk-010659,Craig Carpenter,Brokers,CSU,Comm-2
+10668,Brk-010668,Gerald Nelson,Brokers,MKG,Comm-4
+10693,Brk-010693,Edward Ferguson,Brokers,BRU,Comm-5
+10728,Brk-010728,Nicholas Simpson,Brokers,BRU,Comm-4
+10744,Brk-010744,Fred Gilbert,Brokers,BRU,Comm-3
+10861,Brk-010861,Bobby Walker,Brokers,CDW,Comm-6
+10883,Brk-010883,Louis Gordon,Brokers,CDW,Bonus Based
+10979,Brk-010979,Douglas Morris,Brokers,MKG,Bonus Based
+10982,Brk-010982,Henry Knight,Brokers,CDW,Comm-2
+10983,Brk-010983,Larry Dixon,Brokers,CDW,Bonus Based
+10993,Brk-010993,Jeffrey Jenkins,Brokers,CDW,Comm-8
+11003,Brk-011003,Todd Hunter,Brokers,CDW,Comm-2
+11005,Brk-011005,Jimmy Hughes,Brokers,CDW,Comm-3
+11029,Brk-011029,Eric Nguyen,Brokers,CDW,Comm-2
+11044,Brk-011044,Clarence Romero,Brokers,MKG,Comm-5
+11093,Brk-011093,Victor Vasquez,Brokers,CDW,No Commission
+11094,Brk-011094,Jose Rogers,Brokers,BRU,Bonus Based
+11097,Brk-011097,Clarence Scott,Brokers,CDW,Comm-2
+11100,Brk-011100,Christopher Ruiz,Brokers,CDW,Comm-2
+11113,Brk-011113,Jimmy Turner,Brokers,CDW,Comm-2
+11127,Brk-011127,Arthur Garza,Brokers,CSU,Comm-2
+11131,Brk-011131,Phillip Fuller,Brokers,MKG,Comm-2
+11136,Brk-011136,Scott Berry,Brokers,CSU,Comm-2
+11137,Brk-011137,Willie Hudson,Brokers,CDW,Comm-2
+11154,Brk-011154,Jose Burns,Brokers,CDW,Comm-8
+11162,Brk-011162,Gerald Davis,Brokers,CSU,Comm-5
+11169,Brk-011169,Roy Perez,Brokers,CSU,No Commission
+11170,Brk-011170,Louis Burton,Brokers,CSU,Bonus Based
+11171,Brk-011171,Nicholas Gomez,Brokers,BRU,Comm-8
+11172,Brk-011172,Justin Myers,Brokers,BRU,Comm-5
+11178,Brk-011178,Randy Reyes,Brokers,CSU,Bonus Based
+11179,Brk-011179,George Davis,Brokers,BRU,Bonus Based
+11194,Brk-011194,Lawrence George,Brokers,CDW,Comm-3
+11204,Brk-011204,Ernest Greene,Brokers,CDW,Comm-2
+11212,Brk-011212,Edward Gilbert,Brokers,MKG,Comm-2
+11213,Brk-011213,Antonio Warren,Brokers,CSU,Comm-6
+11217,Brk-011217,Willie Sullivan,Brokers,BRU,Comm-8
+11220,Brk-011220,Randy Shaw,Brokers,CDW,Comm-2
+11223,Brk-011223,Benjamin Sullivan,Brokers,CDW,Comm-7
+11244,Brk-011244,Martin Ellis,Brokers,CDW,No Commission
+11254,Brk-011254,Jack Dean,Brokers,BRU,Comm-9
+11259,Brk-011259,Ralph Wells,Brokers,CDW,Comm-7
+11262,Brk-011262,Matthew Shaw,Brokers,CSU,No Commission
+11263,Brk-011263,Craig Elliott,Brokers,CDW,No Commission
+11272,Brk-011272,Johnny Snyder,Brokers,CDW,Comm-6
+11286,Brk-011286,William Cook,Brokers,CSU,Comm-3
+11482,Brk-011482,Wayne Mcdonald,Brokers,CDW,No Commission
+11545,Brk-011545,Eric Richards,Brokers,MKG,Comm-8
+11558,Brk-011558,Jeffrey Fisher,Brokers,MKG,Comm-7
+11626,Brk-011626,Raymond Wood,Brokers,MKG,Comm-3
+11669,Brk-011669,Arthur Rose,Brokers,CSU,No Commission
+11676,Brk-011676,Bruce Sanders,Brokers,BRU,Comm-6
+11711,Brk-011711,Clarence Allen,Brokers,MKG,Comm-9
+11788,Brk-011788,Joseph Weaver,Brokers,CSU,Comm-2
+11796,Brk-011796,Jonathan Stevens,Brokers,CDW,No Commission
+11822,Brk-011822,George Perez,Brokers,CSU,Comm-2
+11849,Brk-011849,Dennis Montgomery,Brokers,BRU,No Commission
+11870,Brk-011870,Timothy Baker,Brokers,CDW,Comm-7
+11904,Brk-011904,Willie Williams,Brokers,CDW,Comm-2
+11937,Brk-011937,Paul Hart,Brokers,CDW,Comm-6
+11959,Brk-011959,Carl Berry,Brokers,CDW,Comm-2
+11960,Brk-011960,Stephen Carroll,Brokers,BRU,Comm-2
+11974,Brk-011974,Arthur Rogers,Brokers,CSU,Comm-4
+11978,Brk-011978,Phillip Jacobs,Brokers,MKG,Comm-6
+11999,Brk-011999,Richard Hart,Brokers,MKG,Comm-7
+12000,Brk-012000,Samuel Lewis,Brokers,CDW,Bonus Based
+12061,Brk-012061,Ryan Welch,Brokers,BRU,Comm-9
+12087,Brk-012087,Carl Elliott,Brokers,CSU,Comm-2
+12120,Brk-012120,Larry Marshall,Brokers,CDW,Comm-6
+12125,Brk-012125,John Reyes,Brokers,MKG,Bonus Based
+12127,Brk-012127,Charles Harper,Brokers,CDW,Comm-2
+12246,Brk-012246,Brian Davis,Brokers,MKG,Comm-5
+12256,Brk-012256,Ernest Wagner,Brokers,CSU,Comm-2
+12328,Brk-012328,Howard Sims,Brokers,MKG,Comm-8
+12333,Brk-012333,Howard Gardner,Brokers,CSU,Comm-3
+12334,Brk-012334,Bobby Russell,Brokers,CDW,Comm-2
+12345,Brk-012345,Brian Thomas,Brokers,MKG,Comm-7
+12346,Brk-012346,Larry Castillo,Brokers,CSU,Comm-9
+12354,Brk-012354,Arthur Mccoy,Brokers,CSU,Comm-3
+12414,Brk-012414,Eugene Holmes,Brokers,MKG,Bonus Based
+12475,Brk-012475,Joe Sims,Brokers,CDW,Comm-3
+12589,Brk-012589,Sean Williams,Brokers,BRU,Comm-9
+12621,Brk-012621,Ronald Crawford,Brokers,CDW,Comm-2
+12754,Brk-012754,Edward Garrett,Brokers,CSU,Bonus Based
+12769,Brk-012769,Louis Shaw,Brokers,CSU,Comm-2
+49,Brk-000049,Willie Oliver,Direct,Tele sales,Comm-2
+116,Brk-000116,Jose Mccoy,Direct,Tele sales,Bonus Based
+119,Brk-000119,Justin Robinson,Direct,Headquarters,Comm-3
+138,Brk-000138,Randy Alexander,Direct,Tele sales,No Commission
+151,Brk-000151,Brian Oliver,Direct,Headquarters,No Commission
+157,Brk-000157,Eugene Cox,Direct,XPA,No Commission
+175,Brk-000175,David Hall,Direct,Headquarters,Comm-6
+187,Brk-000187,Philip Arnold,Direct,Headquarters,Bonus Based
+192,Brk-000192,Jeremy Mccoy,Direct,Headquarters,Comm-2
+194,Brk-000194,Kevin Johnson,Direct,Tele sales,Comm-2
+197,Brk-000197,Albert Freeman,Direct,XPA,Bonus Based
+211,Brk-000211,Ralph Ferguson,Direct,Headquarters,Comm-2
+224,Brk-000224,Ronald Nguyen,Direct,XPA,Comm-6
+235,Brk-000235,Todd Gomez,Direct,Tele sales,Comm-2
+238,Brk-000238,Sean Anderson,Direct,XPA,No Commission
+269,Brk-000269,Howard Wright,Direct,Tele sales,Comm-7
+347,Brk-000347,Harold Weaver,Direct,Tele sales,Comm-2
+356,Brk-000356,Matthew Scott,Direct,Tele sales,No Commission
+394,Brk-000394,Bobby Mitchell,Direct,Headquarters,Bonus Based
+461,Brk-000461,Gary Franklin,Direct,XPA,No Commission
+473,Brk-000473,Lawrence Howell,Direct,Headquarters,Comm-7
+486,Brk-000486,Victor Robertson,Direct,Tele sales,No Commission
+494,Brk-000494,Richard Moreno,Direct,XPA,Comm-4
+496,Brk-000496,Raymond Sanders,Direct,XPA,Bonus Based
+507,Brk-000507,Henry Arnold,Direct,XPA,Comm-7
+529,Brk-000529,Harry Reynolds,Direct,Headquarters,Comm-5
+542,Brk-000542,Henry Smith,Direct,XPA,Comm-8
+564,Brk-000564,Steve Dunn,Direct,XPA,Comm-2
+586,Brk-000586,Kevin Sanders,Direct,Headquarters,Bonus Based
+597,Brk-000597,Jeffrey Williamson,Direct,Tele sales,Comm-6
+598,Brk-000598,Billy Fields,Direct,Tele sales,Comm-3
+601,Brk-000601,John Howard,Direct,XPA,No Commission
+645,Brk-000645,Justin Gardner,Direct,Headquarters,Comm-7
+671,Brk-000671,Gary Webb,Direct,Headquarters,Bonus Based
+753,Brk-000753,Aaron Collins,Direct,Headquarters,Bonus Based
+781,Brk-000781,Harry Ford,Direct,Tele sales,Comm-2
+796,Brk-000796,Jason Vasquez,Direct,Tele sales,No Commission
+801,Brk-000801,Joseph Stone,Direct,Headquarters,Comm-2
+811,Brk-000811,Shawn Perry,Direct,Tele sales,Comm-7
+813,Brk-000813,Walter Young,Direct,Tele sales,Comm-6
+824,Brk-000824,Billy Welch,Direct,Headquarters,Bonus Based
+836,Brk-000836,Anthony Collins,Direct,Headquarters,Comm-8
+843,Brk-000843,Todd Austin,Direct,Headquarters,Comm-3
+884,Brk-000884,Ryan Reid,Direct,Headquarters,Comm-7
+909,Brk-000909,Patrick Hunt,Direct,XPA,No Commission
+911,Brk-000911,Sean Montgomery,Direct,Tele sales,Comm-2
+922,Brk-000922,Roy Harris,Direct,Headquarters,Bonus Based
+1086,Brk-001086,Eric Nichols,Direct,XPA,Comm-9
+1097,Brk-001097,Ronald Perez,Direct,XPA,Comm-7
+1115,Brk-001115,Jonathan Dixon,Direct,XPA,Bonus Based
+1256,Brk-001256,Gregory Reyes,Direct,Tele sales,Comm-7
+1266,Brk-001266,Fred Lewis,Direct,Headquarters,No Commission
+1270,Brk-001270,Bobby Garza,Direct,Headquarters,Comm-9
+1275,Brk-001275,Ernest Ruiz,Direct,XPA,Comm-2
+1292,Brk-001292,Phillip Stephens,Direct,Headquarters,Bonus Based
+1303,Brk-001303,Nicholas Hansen,Direct,XPA,Bonus Based
+1350,Brk-001350,Earl King,Direct,Tele sales,Comm-7
+1352,Brk-001352,Carlos Mills,Direct,Headquarters,Comm-4
+1499,Brk-001499,Peter Reynolds,Direct,Tele sales,Comm-2
+1500,Brk-001500,Dennis Peterson,Direct,Tele sales,Bonus Based
+1512,Brk-001512,John Martin,Direct,Tele sales,No Commission
+1516,Brk-001516,Louis Reyes,Direct,Tele sales,Comm-9
+1517,Brk-001517,Brandon Alexander,Direct,Tele sales,Bonus Based
+1526,Brk-001526,Scott Banks,Direct,Tele sales,Bonus Based
+1552,Brk-001552,Ernest Sanders,Direct,Tele sales,Comm-2
+1573,Brk-001573,Jack Rivera,Direct,Headquarters,Bonus Based
+1615,Brk-001615,Keith Pierce,Direct,Tele sales,Comm-7
+1630,Brk-001630,Dennis Washington,Direct,Tele sales,No Commission
+1645,Brk-001645,Andrew Smith,Direct,Tele sales,Comm-2
+1678,Brk-001678,Harold Rogers,Direct,Headquarters,Comm-2
+1680,Brk-001680,Ryan Porter,Direct,XPA,Bonus Based
+1695,Brk-001695,Nicholas Montgomery,Direct,Tele sales,Comm-8
+1846,Brk-001846,Ronald Welch,Direct,Headquarters,Comm-7
+1865,Brk-001865,Harry Mason,Direct,XPA,Comm-2
+1866,Brk-001866,Clarence Wagner,Direct,Tele sales,Comm-7
+1896,Brk-001896,Bruce Price,Direct,Headquarters,Comm-2
+1997,Brk-001997,Gary Foster,Direct,Headquarters,Comm-2
+2107,Brk-002107,Aaron Morales,Direct,XPA,Comm-2
+2117,Brk-002117,Peter Riley,Direct,XPA,Comm-2
+2128,Brk-002128,Victor Myers,Direct,Tele sales,Comm-9
+2172,Brk-002172,Harry Gardner,Direct,Headquarters,Bonus Based
+2178,Brk-002178,Thomas Sanders,Direct,XPA,Comm-3
+2208,Brk-002208,James Reid,Direct,Tele sales,Bonus Based
+2218,Brk-002218,Patrick Peterson,Direct,Headquarters,Comm-6
+2230,Brk-002230,Christopher Patterson,Direct,Tele sales,No Commission
+2235,Brk-002235,Earl Stewart,Direct,Headquarters,No Commission
+2262,Brk-002262,Shawn Reed,Direct,XPA,Comm-2
+2263,Brk-002263,Clarence Brown,Direct,XPA,Comm-3
+2307,Brk-002307,Gerald Hansen,Direct,Tele sales,Comm-4
+2316,Brk-002316,Antonio Sullivan,Direct,Tele sales,Bonus Based
+2321,Brk-002321,Carlos Lawrence,Direct,Tele sales,Comm-8
+2322,Brk-002322,Peter White,Direct,Headquarters,Comm-2
+2335,Brk-002335,Gerald Ray,Direct,Tele sales,Bonus Based
+2378,Brk-002378,Henry Burton,Direct,Tele sales,Comm-2
+2380,Brk-002380,Gary Wagner,Direct,Tele sales,Bonus Based
+2384,Brk-002384,Jeremy Mitchell,Direct,XPA,Bonus Based
+2460,Brk-002460,Gary Long,Direct,Tele sales,No Commission
+2468,Brk-002468,Kenneth Morris,Direct,Tele sales,Bonus Based
+2482,Brk-002482,Russell Fox,Direct,Tele sales,Bonus Based
+2507,Brk-002507,Michael Watkins,Direct,XPA,Comm-7
+2531,Brk-002531,Michael Gilbert,Direct,Headquarters,Bonus Based
+2532,Brk-002532,Gerald Richards,Direct,XPA,Comm-9
+2537,Brk-002537,Shawn Wheeler,Direct,Tele sales,Comm-7
+2538,Brk-002538,David Fuller,Direct,Tele sales,Bonus Based
+2555,Brk-002555,Brandon Griffin,Direct,Tele sales,Comm-6
+2559,Brk-002559,Gregory Gonzalez,Direct,Tele sales,Bonus Based
+2569,Brk-002569,Lawrence Palmer,Direct,Headquarters,Comm-2
+2584,Brk-002584,Thomas Martinez,Direct,Headquarters,Bonus Based
+2614,Brk-002614,Chris Kelley,Direct,Tele sales,Bonus Based
+2637,Brk-002637,William Warren,Direct,Tele sales,Comm-2
+2648,Brk-002648,Peter Day,Direct,Tele sales,Comm-3
+2656,Brk-002656,Patrick Hansen,Direct,Tele sales,Bonus Based
+2659,Brk-002659,Carl Brown,Direct,Tele sales,No Commission
+2676,Brk-002676,Carlos Kelly,Direct,Tele sales,Comm-5
+2690,Brk-002690,Ralph Hayes,Direct,Tele sales,Comm-2
+2797,Brk-002797,Alan Hayes,Direct,Tele sales,Comm-6
+2801,Brk-002801,Timothy Ryan,Direct,Headquarters,Comm-9
+7626,Brk-007626,Aaron Turner,Direct,Headquarters,Comm-4
+7640,Brk-007640,George Wallace,Direct,Tele sales,Comm-7
+7682,Brk-007682,Chris Kelly,Direct,Tele sales,Comm-5
+7835,Brk-007835,Jonathan Owens,Direct,Tele sales,Comm-9
+7841,Brk-007841,Jason Palmer,Direct,Tele sales,Comm-2
+7973,Brk-007973,Robert Nichols,Direct,Headquarters,No Commission
+7979,Brk-007979,Gerald Washington,Direct,Headquarters,Bonus Based
+8055,Brk-008055,Ernest Wright,Direct,Tele sales,Comm-2
+8063,Brk-008063,Martin Greene,Direct,Headquarters,Comm-9
+8113,Brk-008113,Bobby Ross,Direct,Tele sales,Comm-2
+8116,Brk-008116,Keith Welch,Direct,Headquarters,Comm-8
+8138,Brk-008138,Louis Bennett,Direct,Headquarters,No Commission
+8197,Brk-008197,Jonathan Hart,Direct,Tele sales,Comm-3
+8356,Brk-008356,Earl Powell,Direct,XPA,Comm-2
+8367,Brk-008367,Keith Howell,Direct,Headquarters,Comm-2
+8399,Brk-008399,David Hunter,Direct,Headquarters,Comm-2
+8432,Brk-008432,Jimmy Duncan,Direct,Headquarters,Comm-2
+8461,Brk-008461,Samuel Green,Direct,Headquarters,Comm-4
+8484,Brk-008484,Roger Alvarez,Direct,XPA,Bonus Based
+8507,Brk-008507,Justin Lawson,Direct,Tele sales,Comm-2
+8544,Brk-008544,Adam Dunn,Direct,Tele sales,Bonus Based
+8585,Brk-008585,Bruce Burns,Direct,Headquarters,Comm-3
+8601,Brk-008601,Patrick Simmons,Direct,Tele sales,Comm-7
+8605,Brk-008605,Howard Johnston,Direct,Tele sales,Bonus Based
+8779,Brk-008779,John Moore,Direct,Tele sales,No Commission
+8820,Brk-008820,Chris Dean,Direct,Headquarters,Bonus Based
+8853,Brk-008853,Mark Moore,Direct,XPA,Bonus Based
+8855,Brk-008855,Martin Day,Direct,Tele sales,No Commission
+8882,Brk-008882,Jesse Green,Direct,Tele sales,Comm-8
+8911,Brk-008911,Earl Nichols,Direct,Headquarters,Comm-2
+8917,Brk-008917,Jeffrey Richards,Direct,XPA,Comm-5
+8919,Brk-008919,Roger Richards,Direct,Headquarters,No Commission
+8946,Brk-008946,Andrew Williamson,Direct,Tele sales,Bonus Based
+8948,Brk-008948,Scott Martin,Direct,XPA,Comm-2
+8949,Brk-008949,Andrew Diaz,Direct,Headquarters,Bonus Based
+8953,Brk-008953,Kevin Edwards,Direct,Tele sales,No Commission
+8955,Brk-008955,Billy Howell,Direct,XPA,Comm-7
+8963,Brk-008963,Johnny Little,Direct,Tele sales,Comm-2
+8984,Brk-008984,Paul Andrews,Direct,Tele sales,Comm-5
+8991,Brk-008991,William Thomas,Direct,Headquarters,Comm-5
+8999,Brk-008999,Wayne Gonzalez,Direct,XPA,Comm-7
+9000,Brk-009000,Fred Riley,Direct,Tele sales,Comm-4
+9021,Brk-009021,Philip Murray,Direct,Tele sales,Comm-4
+9022,Brk-009022,John Evans,Direct,Headquarters,Comm-5
+9085,Brk-009085,Fred Smith,Direct,Tele sales,Comm-4
+9175,Brk-009175,Paul Diaz,Direct,Headquarters,Comm-9
+9204,Brk-009204,Henry Martinez,Direct,Headquarters,Bonus Based
+9206,Brk-009206,Joshua Wagner,Direct,XPA,Comm-3
+9227,Brk-009227,Billy Burton,Direct,Headquarters,Comm-2
+9272,Brk-009272,Justin Knight,Direct,Tele sales,Comm-2
+9344,Brk-009344,George Nguyen,Direct,Tele sales,Bonus Based
+9347,Brk-009347,Keith Mcdonald,Direct,XPA,Comm-2
+9357,Brk-009357,Frank Owens,Direct,Tele sales,Comm-7
+9359,Brk-009359,David Burns,Direct,Tele sales,Comm-8
+9361,Brk-009361,Ernest Turner,Direct,Tele sales,Comm-6
+9362,Brk-009362,Steve Hudson,Direct,Tele sales,Comm-2
+9372,Brk-009372,Alan Ramos,Direct,Tele sales,Bonus Based
+9377,Brk-009377,Ronald Knight,Direct,XPA,Comm-8
+9393,Brk-009393,Walter Stewart,Direct,Tele sales,Comm-4
+9405,Brk-009405,Kenneth Clark,Direct,Headquarters,Comm-2
+9410,Brk-009410,Keith Jacobs,Direct,Tele sales,Comm-2
+9419,Brk-009419,Carlos Wagner,Direct,Headquarters,Comm-9
+9440,Brk-009440,Roger Simmons,Direct,Headquarters,Comm-7
+9445,Brk-009445,Ernest Collins,Direct,Tele sales,Comm-2
+9546,Brk-009546,Ronald Chapman,Direct,XPA,Bonus Based
+9558,Brk-009558,Jose Powell,Direct,Headquarters,Comm-2
+9588,Brk-009588,Sean Schmidt,Direct,Headquarters,Comm-6
+9610,Brk-009610,Stephen Howard,Direct,XPA,Bonus Based
+9628,Brk-009628,Harry Morris,Direct,Tele sales,Bonus Based
+9633,Brk-009633,Kevin Gray,Direct,Tele sales,No Commission
+9634,Brk-009634,Peter Burns,Direct,XPA,Comm-9
+9647,Brk-009647,Phillip Foster,Direct,Headquarters,Comm-2
+9670,Brk-009670,Brandon Fox,Direct,Headquarters,No Commission
+9726,Brk-009726,Thomas Porter,Direct,Headquarters,Comm-3
+9775,Brk-009775,Ernest Rice,Direct,XPA,Bonus Based
+9792,Brk-009792,Eugene Fowler,Direct,Headquarters,Comm-2
+9796,Brk-009796,Robert Palmer,Direct,Headquarters,Comm-7
+9797,Brk-009797,Todd Parker,Direct,XPA,Comm-5
+9799,Brk-009799,Jose Spencer,Direct,Tele sales,Comm-2
+9800,Brk-009800,Patrick Turner,Direct,XPA,Bonus Based
+9824,Brk-009824,Donald Garcia,Direct,XPA,Bonus Based
+9826,Brk-009826,Charles Ortiz,Direct,XPA,Comm-5
+9853,Brk-009853,Martin Clark,Direct,XPA,Bonus Based
+9857,Brk-009857,Carlos Simpson,Direct,Headquarters,Comm-9
+9872,Brk-009872,Jesse Walker,Direct,Tele sales,Comm-4
+9893,Brk-009893,Clarence Duncan,Direct,XPA,Comm-2
+9901,Brk-009901,Todd Brown,Direct,Tele sales,Bonus Based
+9918,Brk-009918,Scott Fox,Direct,Headquarters,Comm-8
+9923,Brk-009923,Albert Crawford,Direct,Headquarters,Comm-8
+9933,Brk-009933,Robert Fields,Direct,Tele sales,Bonus Based
+9983,Brk-009983,Ryan Wells,Direct,Tele sales,Comm-6
+10016,Brk-010016,Carl Hayes,Direct,Tele sales,Comm-2
+10030,Brk-010030,Joshua Knight,Direct,XPA,Bonus Based
+10050,Brk-010050,Scott Burns,Direct,XPA,Comm-7
+10055,Brk-010055,Patrick Harrison,Direct,Tele sales,Bonus Based
+10069,Brk-010069,Paul Ferguson,Direct,Headquarters,Comm-2
+10071,Brk-010071,Louis Rivera,Direct,Tele sales,Comm-2
+10072,Brk-010072,Frank Robinson,Direct,Headquarters,Comm-3
+10073,Brk-010073,Ryan Gardner,Direct,Tele sales,No Commission
+10112,Brk-010112,Carlos Henry,Direct,Headquarters,Comm-9
+10152,Brk-010152,Bruce Simmons,Direct,Headquarters,Comm-9
+10172,Brk-010172,Nicholas Hawkins,Direct,Tele sales,Comm-7
+10186,Brk-010186,Joseph Medina,Direct,XPA,Comm-4
+10235,Brk-010235,Earl Meyer,Direct,Headquarters,Bonus Based
+10328,Brk-010328,Donald Bishop,Direct,Headquarters,Comm-9
+10360,Brk-010360,Edward Evans,Direct,Tele sales,Bonus Based
+10379,Brk-010379,Adam Stevens,Direct,Headquarters,Comm-2
+10428,Brk-010428,Frank Long,Direct,Tele sales,No Commission
+10430,Brk-010430,Wayne Long,Direct,Headquarters,Comm-2
+10507,Brk-010507,Michael Olson,Direct,XPA,No Commission
+10536,Brk-010536,Todd Hughes,Direct,XPA,Bonus Based
+10553,Brk-010553,William Williams,Direct,Tele sales,Comm-8
+10563,Brk-010563,Raymond Gordon,Direct,Headquarters,Comm-6
+10566,Brk-010566,Nicholas Campbell,Direct,Headquarters,Comm-7
+10569,Brk-010569,Andrew Washington,Direct,XPA,Comm-2
+10603,Brk-010603,Earl Perry,Direct,Tele sales,Comm-9
+10618,Brk-010618,Sean Stone,Direct,Tele sales,Comm-2
+10637,Brk-010637,Craig Ford,Direct,Tele sales,Comm-8
+10639,Brk-010639,Edward Robertson,Direct,Headquarters,Comm-2
+10646,Brk-010646,Ronald Flores,Direct,Headquarters,Comm-5
+10676,Brk-010676,Victor Hanson,Direct,Tele sales,No Commission
+10720,Brk-010720,Carlos Warren,Direct,Tele sales,Bonus Based
+10722,Brk-010722,Joshua Garrett,Direct,Headquarters,Comm-4
+10738,Brk-010738,Frank West,Direct,Headquarters,No Commission
+10739,Brk-010739,Antonio Freeman,Direct,XPA,Comm-2
+10749,Brk-010749,Johnny Gonzalez,Direct,Headquarters,Bonus Based
+10764,Brk-010764,Jack Price,Direct,Tele sales,Comm-6
+10802,Brk-010802,Todd Mccoy,Direct,Tele sales,Comm-9
+10820,Brk-010820,Shawn Sanders,Direct,XPA,Comm-9
+10834,Brk-010834,Jonathan Dean,Direct,Tele sales,Comm-6
+10844,Brk-010844,Jose Russell,Direct,Tele sales,Comm-9
+10892,Brk-010892,Timothy Lee,Direct,Tele sales,Comm-3
+10898,Brk-010898,Michael Evans,Direct,Tele sales,Comm-3
+10900,Brk-010900,Todd Mendoza,Direct,Tele sales,Bonus Based
+10948,Brk-010948,Alan Porter,Direct,Headquarters,Comm-2
+10964,Brk-010964,Russell Green,Direct,XPA,Comm-2
+10978,Brk-010978,Victor Day,Direct,Tele sales,No Commission
+10987,Brk-010987,Arthur Torres,Direct,Tele sales,Bonus Based
+10990,Brk-010990,Billy Brooks,Direct,Headquarters,No Commission
+10991,Brk-010991,Bobby Lane,Direct,XPA,Comm-7
+10992,Brk-010992,Chris Wheeler,Direct,Headquarters,Comm-3
+10998,Brk-010998,Randy Rodriguez,Direct,Tele sales,Comm-7
+11000,Brk-011000,Jeffrey Gomez,Direct,Headquarters,Comm-5
+11001,Brk-011001,Terry Perry,Direct,Tele sales,Comm-7
+11004,Brk-011004,Justin Bennett,Direct,XPA,Bonus Based
+11011,Brk-011011,Gary Hill,Direct,XPA,Comm-9
+11027,Brk-011027,Ryan Black,Direct,Headquarters,Comm-2
+11030,Brk-011030,Juan Perry,Direct,XPA,Comm-8
+11031,Brk-011031,David Harper,Direct,Tele sales,Comm-8
+11036,Brk-011036,Samuel Torres,Direct,Headquarters,Bonus Based
+11039,Brk-011039,Carl Henderson,Direct,Tele sales,Comm-2
+11050,Brk-011050,Sean Stanley,Direct,Tele sales,Comm-7
+11052,Brk-011052,Louis Elliott,Direct,Headquarters,Comm-2
+11063,Brk-011063,Eric Morrison,Direct,XPA,Bonus Based
+11066,Brk-011066,Jesse Williamson,Direct,Headquarters,Comm-2
+11069,Brk-011069,Daniel Harris,Direct,Tele sales,Comm-2
+11071,Brk-011071,Bruce Jackson,Direct,Headquarters,Comm-5
+11072,Brk-011072,Matthew Young,Direct,Headquarters,Comm-9
+11074,Brk-011074,Charles Castillo,Direct,XPA,Comm-2
+11077,Brk-011077,Walter Turner,Direct,Headquarters,Comm-2
+11078,Brk-011078,Mark Fisher,Direct,XPA,Bonus Based
+11083,Brk-011083,Ralph Hall,Direct,Headquarters,Comm-2
+11086,Brk-011086,Jeffrey Martinez,Direct,XPA,Bonus Based
+11087,Brk-011087,Wayne George,Direct,Tele sales,Comm-9
+11104,Brk-011104,Roger Rogers,Direct,XPA,No Commission
+11107,Brk-011107,Lawrence Willis,Direct,Tele sales,No Commission
+11114,Brk-011114,Eugene Boyd,Direct,Tele sales,No Commission
+11116,Brk-011116,Daniel Hunter,Direct,XPA,Comm-8
+11118,Brk-011118,Thomas Johnson,Direct,XPA,Comm-6
+11119,Brk-011119,Louis Montgomery,Direct,Tele sales,Comm-9
+11121,Brk-011121,Bobby Reed,Direct,Headquarters,Comm-9
+11122,Brk-011122,Steve Bryant,Direct,Tele sales,Bonus Based
+11132,Brk-011132,Jack Knight,Direct,Tele sales,No Commission
+11133,Brk-011133,Shawn George,Direct,XPA,Comm-9
+11134,Brk-011134,Sean Russell,Direct,XPA,Comm-2
+11139,Brk-011139,Aaron Stone,Direct,XPA,Bonus Based
+11140,Brk-011140,Jimmy Hart,Direct,XPA,Comm-2
+11147,Brk-011147,Ernest Montgomery,Direct,Tele sales,No Commission
+11151,Brk-011151,David Rodriguez,Direct,Headquarters,Bonus Based
+11153,Brk-011153,Harold George,Direct,XPA,No Commission
+11156,Brk-011156,Larry Schmidt,Direct,Tele sales,No Commission
+11158,Brk-011158,Douglas Jordan,Direct,Tele sales,Bonus Based
+11160,Brk-011160,Arthur Peters,Direct,XPA,Comm-8
+11163,Brk-011163,Adam Baker,Direct,Tele sales,No Commission
+11175,Brk-011175,Nicholas Carpenter,Direct,Headquarters,Comm-2
+11182,Brk-011182,Ernest Parker,Direct,Tele sales,Comm-7
+11188,Brk-011188,Jesse Dean,Direct,XPA,Comm-4
+11193,Brk-011193,Jonathan Bradley,Direct,Tele sales,No Commission
+11230,Brk-011230,George Olson,Direct,Headquarters,Comm-3
+11245,Brk-011245,Gary Williams,Direct,Headquarters,Comm-2
+11246,Brk-011246,Clarence Davis,Direct,Tele sales,Comm-6
+11252,Brk-011252,Terry Andrews,Direct,Headquarters,Bonus Based
+11255,Brk-011255,Carl Thomas,Direct,Headquarters,Comm-2
+11268,Brk-011268,Arthur Griffin,Direct,Headquarters,Comm-9
+11273,Brk-011273,Douglas George,Direct,XPA,Bonus Based
+11276,Brk-011276,David Bailey,Direct,Tele sales,Comm-5
+11278,Brk-011278,Jeffrey Murray,Direct,Tele sales,Comm-2
+11287,Brk-011287,Donald Jordan,Direct,Tele sales,Comm-2
+11444,Brk-011444,David Barnes,Direct,Tele sales,Comm-8
+11469,Brk-011469,Fred Phillips,Direct,Headquarters,No Commission
+11474,Brk-011474,Eric Sanchez,Direct,XPA,Comm-2
+11479,Brk-011479,Anthony Hill,Direct,Tele sales,Comm-3
+11493,Brk-011493,Samuel Wilson,Direct,XPA,Comm-7
+11537,Brk-011537,Joshua Ellis,Direct,Headquarters,Comm-4
+11552,Brk-011552,Terry Mason,Direct,XPA,Comm-2
+11590,Brk-011590,Robert Snyder,Direct,Tele sales,Comm-5
+11621,Brk-011621,William Fuller,Direct,XPA,Comm-7
+11638,Brk-011638,Jeffrey Morales,Direct,Headquarters,Comm-2
+11653,Brk-011653,Terry Simpson,Direct,Tele sales,Bonus Based
+11713,Brk-011713,Robert Rodriguez,Direct,XPA,Bonus Based
+11714,Brk-011714,Phillip Pierce,Direct,Tele sales,Comm-7
+11764,Brk-011764,Sean Martin,Direct,Headquarters,Comm-2
+11768,Brk-011768,Peter Chapman,Direct,XPA,Bonus Based
+11781,Brk-011781,Juan Evans,Direct,XPA,Comm-9
+11798,Brk-011798,Alan Palmer,Direct,Headquarters,Bonus Based
+11806,Brk-011806,Eric Lawrence,Direct,Headquarters,Bonus Based
+11840,Brk-011840,Russell Burke,Direct,XPA,No Commission
+11910,Brk-011910,Robert Oliver,Direct,Tele sales,Comm-8
+11932,Brk-011932,Arthur Patterson,Direct,XPA,Bonus Based
+11942,Brk-011942,Albert Lopez,Direct,XPA,Bonus Based
+11954,Brk-011954,Patrick Perkins,Direct,Headquarters,Comm-4
+11971,Brk-011971,Nicholas Jacobs,Direct,Headquarters,Comm-4
+11972,Brk-011972,David Cox,Direct,XPA,Comm-9
+11973,Brk-011973,Carl Gardner,Direct,Tele sales,No Commission
+11980,Brk-011980,Ryan Dean,Direct,XPA,Comm-5
+11984,Brk-011984,Chris Watkins,Direct,Headquarters,Comm-6
+12003,Brk-012003,Ralph Alvarez,Direct,Tele sales,Comm-2
+12024,Brk-012024,Harry Banks,Direct,Tele sales,Bonus Based
+12027,Brk-012027,Albert Taylor,Direct,Headquarters,Comm-7
+12034,Brk-012034,Fred Robertson,Direct,XPA,Comm-7
+12048,Brk-012048,Christopher Tucker,Direct,Tele sales,Comm-2
+12051,Brk-012051,Kenneth Bradley,Direct,XPA,Bonus Based
+12102,Brk-012102,Kenneth Fields,Direct,Headquarters,Comm-3
+12116,Brk-012116,Joshua Cook,Direct,Headquarters,Comm-4
+12133,Brk-012133,Ronald Reed,Direct,Tele sales,Comm-4
+12174,Brk-012174,Justin Lynch,Direct,Tele sales,Comm-2
+12181,Brk-012181,Brian Hansen,Direct,Tele sales,Comm-2
+12208,Brk-012208,Ryan Butler,Direct,Headquarters,Comm-9
+12229,Brk-012229,Clarence Fox,Direct,XPA,No Commission
+12241,Brk-012241,Walter Cook,Direct,Headquarters,Comm-8
+12250,Brk-012250,Ernest Wheeler,Direct,Tele sales,Comm-3
+12299,Brk-012299,Gary Rodriguez,Direct,Tele sales,Comm-7
+12356,Brk-012356,Roger Ramos,Direct,XPA,Comm-8
+12358,Brk-012358,Robert Reed,Direct,Headquarters,Comm-3
+12367,Brk-012367,Carl Hall,Direct,Tele sales,Comm-2
+12399,Brk-012399,Scott Mason,Direct,XPA,Comm-7
+12476,Brk-012476,Scott Clark,Direct,Headquarters,Comm-2
+12563,Brk-012563,Martin Carr,Direct,Headquarters,No Commission
+12605,Brk-012605,Peter Robinson,Direct,XPA,Comm-5
+12617,Brk-012617,Matthew Russell,Direct,Headquarters,Comm-2
+12692,Brk-012692,Billy Elliott,Direct,Headquarters,Comm-2
+12727,Brk-012727,Juan Richardson,Direct,Headquarters,No Commission

@@ -1,0 +1,11 @@
+ID,Description
+1,Court
+2,In person
+3,Written
+4,Court Order
+5,Email
+6,Fax
+7,Phone
+8,Call center
+9,Partner / Bank
+99,Other
