@@ -6,7 +6,7 @@ Snowflake specific topics covered:
 2. Users/ Roles/ Grant Privilages
 3. Network Policies
 4. Share - Dirsect Share,  Share with a consumer reader account/ Full Snowflake account.
-5. Dashboards
+5. Snowflake Dashboards
 6. Sequences
 7. Stages/ Pipes
 8. Time Travel
