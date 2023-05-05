@@ -1,0 +1,16 @@
+Download the ODBC Connecter from
+https://developers.snowflake.com/odbc/
+
+Install it and open ODBC Data Sources
+
+Make sure Snowflake Driver is installed
+
+Create a 'USER DSN' using Snowflake Driver
+
+
+
+Use the MS Excel
+Blank Sheet -> Get Data -> From Other Sources -> From ODBC -> DSN(Data Source Name) -> Snowflake
+
+
+Now you get to access the data from Snowflake
