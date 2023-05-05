@@ -9,7 +9,7 @@ Create a 'USER DSN' using Snowflake Driver
 
 
 
-Use the MS Excel
+Use the MS Excel or Any other Third party software, for instance, here we use MS Excel:
 Blank Sheet -> Get Data -> From Other Sources -> From ODBC -> DSN(Data Source Name) -> Snowflake
 
 
