@@ -30,7 +30,19 @@ create or replace file format customer_csv_ff2
     field_optionally_enclosed_by = '\042'
     skip_header = 1 ;
 
-
+-- Default File format Create Script
+CREATE FILE FORMAT customer_csv_ff
+    TYPE = 'CSV'
+    COMPRESSION = 'AUTO'
+        -- AUTO | GZIP | BZ2 | BROTLI | ZSTD | DEFLATE | RAW_DEFLATE | NONE
+    FIELD_DELIMITER = ','
+    RECORD_DELIMITER =  '\n'
+    SKIP_HEADER = 1
+    FIELD_OPTIONALLY_ENCLOSED_BY = 'NONE'
+    DATE_FORMAT = 'AUTO'
+    TIMESTAMP_FORMAT = 'AUTO'
+    NULL_ID = ('\\N')
+        -- \\N or NULL or Nul or Other
 
 
 
@@ -87,3 +99,5 @@ COPY INTO "TTIPS"."CH01"."CUSTOMER_CSV"
     FILE_FORMAT = '"TTIPS"."CH01"."CUSTOMER_CSV_FF"' 
     ON_ERROR = 'CONTINUE' 
     PURGE = TRUE;
+
+
