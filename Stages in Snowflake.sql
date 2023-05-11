@@ -582,3 +582,24 @@ FILES=('customer_000.csv', 'customer_001.csv');
 
 
 
+
+
+
+
+/*==============
+LOAD PERFORMANCE
+==============*/
+
+/*
+On testing to load data to an internal stage and then to a table, where the data is a combination of multiple csv files of 64 mb each in case1 and GZIP compressed csv files in case 2,
+Loading the data to the table did not show much difference in time taken in both the cases;
+*/
+
+
+/*
+On testing to load parquet data to an internal stage and then to a table, where the data is a parquet files of 64 mb each in case1 and SNAPPY compressed PARQUET files in case 2,
+Loading the data to the table showed much efficient in time taken in both the cases;
+*/
+
+-- CONCLUSION - PARQUET SNAPPY GIVES THE BEST PERFORMANCE
+-- Even though Snowflake recommends using the CSV or CSV GZIP files for loading.
