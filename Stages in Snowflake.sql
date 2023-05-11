@@ -493,6 +493,8 @@ cities_parquet_stage/OUT/parquet__0_0_0.snappy.parquet	1,136	51009c7c21f3b8c152a
 cities_parquet_stage/cities.parquet	                      880	d459820bb13b9da4d885e1840f2d9ada	Thu, 11 May 2023 18:11:17 GMT
 */
 
+-- HERE in the above result, the parquet file is suffiixed by snappy, where snappy is a compression mode.
+
 -- OR
 
 SELECT t.$1 FROM @cities_parquet_stage/OUT/ t;
@@ -529,3 +531,54 @@ REMOVE @cities_parquet_stage/cities.parquet;
 REMOVE @cities_parquet_stage/OUT/;
 
 LIST @cities_parquet_stage;
+
+
+
+
+
+
+
+
+
+/*========================
+FILE PATTERN WHILE LOADING
+=========================*/
+
+-- CASE01
+COPY INTO table1 FROM @t1/region/state/city/2023/05/02/
+FILES = ('mydata1.csv', 'mydata2.csv');
+
+-- CASE02
+COPY INTO table2 FROM @t1/region/state/city/2023/05/02/
+PATTERN = '.*mydata[^[0-9]{1,3}$$].csv';
+
+-- CASE03
+COPY INTO people_data FROM @%people_data/data1/
+PATTERN = '.*person_data[^0-9{1,3}$$].csv';
+
+
+
+
+
+
+/*=================================================================
+TO VIEW THE CONTENT OF A FILE IN A STAGE, WITHOUT LOADING THE DATA
+=================================================================*/
+
+SELECT $1, $2, $3, $4, $5, $6 FROM @my_stage/my_data/custromer_complains.csv;
+
+
+
+
+
+
+/*=================================================
+COPYING MULTIPLE SPECIFIC FILES FROM STAGE TO TABLE
+==================================================*/
+COPY INTO my_customer_csv FROM
+@my_stage/my_data/
+FILES=('customer_000.csv', 'customer_001.csv');
+
+
+
+
