@@ -196,7 +196,7 @@ ConsumerComplaints_cleaned.csv.gz	2,483,696	a69132aa9b00e3d4304a9c29a5654b05	Wed
 
 
 /*==========================
-LOAD DATA INTO A NAMED STAGE
+LOAD DATA INTO A NAMED - INETERNAL STAGE
 ==========================*/
 
 // INTERNAL STAGE - Stores data files internally within Snowflake. Internal stages can be either permanent or temporary.
@@ -244,3 +244,288 @@ NOT POSSIBLE - LOAD DATA INTO AN EXTERNAL STAGE
 =============================================*/
 
 -- External stage is designed not to be ingested with data, but to be pointed to an external data source like object storage.
+
+
+
+
+
+
+
+
+
+/*==============================
+LOAD AND QUERY DATA FROM STAGES
+==============================*/
+
+/*==============
+FROM TABLE STAGE
+==============*/
+
+-- Table stages are un-named stages
+-- It cannot be modified, so it is hard to associate a file format with it.
+-- Easy to work with csv but hard to work with Semi-Structured Data
+
+-- Create a PARQUET Table in the name of cites_parquet and add a file format while creating the table
+
+CREATE or REPLACE TABLE cites_parquet
+(
+    my_data VARIANT    -- Note that the datatype used is VARIANT in cities
+)
+STAGE_FILE_FORMAT = (TYPE=PARQUET)
+;
+
+// Load parquet file into the TABLE STAGE
+co2trading#COMPUTE_WH@RAW.PUBLIC> PUT file:///C:/Users/sahee/OneDrive/Desktop/Repositories/Snowflake/Datasets/cities.parquet @%cites_parquet;
++----------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source         | target         | source_size | target_size | source_compression | target_compression | status   | message |
+|----------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| cities.parquet | cities.parquet |         866 |         880 | PARQUET            | PARQUET            | UPLOADED |         |
++----------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 2.176s
+
+
+
+co2trading#COMPUTE_WH@RAW.PUBLIC>LIST @%cites_parquet;
++----------------+------+----------------------------------+-------------------------------+
+| name           | size | md5                              | last_modified                 |
+|----------------+------+----------------------------------+-------------------------------|
+| cities.parquet |  880 | 5a29804b213be5e95d0f88cb4146759e | Thu, 11 May 2023 16:18:02 GMT |
++----------------+------+----------------------------------+-------------------------------+
+
+SELECT * FROM cites_parquet;
+
+// Now lets query the data using the $ notation
+
+SELECT
+    metadata$filename,
+    metadata$file_row_number,
+    $1:continent::VARCHAR,
+    $1:country:name::VARCHAR,
+    $1:country:city::VARIANT
+FROM @%cites_parquet;
+
+/* RESULT
+METADATA$FILENAME 				METADATA$FILE_ROW_NUMBER	$1:CONTINENT::VARCHAR	$1:COUNTRY:NAME::VARCHAR	$1:COUNTRY:CITY::VARIANT
+@CITES_PARQUET/cities.parquet	1							Europe					France						[   "Paris",   "Nice",   "Marseilles",   "Cannes" ]
+@CITES_PARQUET/cities.parquet	2							Europe					Greece						[   "Athens",   "Piraeus",   "Hania",   "Heraklion",   "Rethymnon",   "Fira" ]
+@CITES_PARQUET/cities.parquet	3							North America			Canada						[   "Toronto",   "Vancouver",   "St. John's",   "Saint John",   "Montreal",   "Halifax",   "Winnipeg",   "Calgary",   "Saskatoon",   "Ottawa",   "Yellowknife" ]
+*/
+-- In the above query, you could see that the data is not copied into the table from the stage.
+-- Instead, the data in the stage is directly being queried by pointing to the stage @%cites_parquet using TABLE STAGE
+
+-- PARQUET file format will only have one column named as $1
+-- If we have loaded additional files into the stage, the metadata$filename and row_number will give additional info on each record
+-- If we remove the stage from the table definition, the query wont work.
+-- Even if you give a file format properties to the table, the query wont work for a table stage
+
+
+
+// Now lets run the copy command to load the data into the table, so that we can view the content of the parquet file in JSON format
+COPY INTO cites_parquet FROM @%cites_parquet/cities.parquet;
+
+SELECT * FROM cites_parquet; -- Here, it shows the result in JSON format because the file is parquet
+
+/*
+MY_DATA
+{   "continent": "Europe",   "country": {     "city": [       "Paris",       "Nice",       "Marseilles",       "Cannes"     ],     "name": "France"   } }
+{   "continent": "Europe",   "country": {     "city": [       "Athens",       "Piraeus",       "Hania",       "Heraklion",       "Rethymnon",       "Fira"     ],     "name": "Greece"   } }
+{   "continent": "North America",   "country": {     "city": [       "Toronto",       "Vancouver",       "St. John's",       "Saint John",       "Montreal",       "Halifax",       "Winnipeg",       "Calgary",       "Saskatoon",       "Ottawa",       "Yellowknife"     ],     "name": "Canada"   } }
+*/
+
+-- Once the data is loaded, you can see the LOAD_HISTORY table to see the history
+-- Copy + Tables has metadata which remembers last 64 days of data load history
+
+-- You may use the option "FORCE = TRUE | FALSE" to re-load the same data. By default, this flag is flase.
+-- Also, if you TRUNCATE or DELETE all the data, without FORCE = TRUE, the data cannot be loaded.
+
+--Lets try to load the data again to the same table
+COPY INTO cites_parquet FROM @%cites_parquet/cities.parquet;
+/* RESULT
+status
+Copy executed with 0 files processed.
+*/
+
+--Lets try to load the data again to the same table using FORCE = TRUE
+COPY INTO cites_parquet 
+FROM @%cites_parquet/cities.parquet 
+FORCE=TRUE; 
+/*
+file	        status	rows_parsed	rows_loaded	error_limit	errors_seen
+cities.parquet	LOADED	3	        3	        1	        0
+*/ -- Making it TRUE will produce data redundancy
+
+
+
+
+
+
+
+/*==============
+VIEW ACCNT USAGE
+==============*/
+-- To view the account usage,
+USE ROLE ACCOUNTADMIN;
+-- SELECT on COPY_HISTORY Table
+SELECT * FROM SNOWFLAKE.ACCOUNT_USAGE.COPY_HISTORY;
+-- LOAD_HISTORY
+SELECT * FROM SNOWFLAKE.ACCOUNT_USAGE.LOAD_HISTORY;
+-- ACCOUNT_STAGES
+SELECT * FROM SNOWFLAKE.ACCOUNT_USAGE.STAGES; -- UNNAMED STAGES WON'T BE VISIBLE HERE
+
+
+
+
+
+
+/*===============
+VIEW FILE FORMATS
+===============*/
+CREATE OR REPLACE FILE FORMAT parquet_ff TYPE = 'PARQUET';
+
+CREATE OR REPLACE FILE FORMAT json_ff TYPE = 'JSON';
+
+CREATE OR REPLACE FILE FORMAT csv_ff TYPE = 'CSV';
+
+
+
+SHOW FILE FORMATS;
+
+
+
+
+
+
+/*=======================================
+DEFINE FILE FORMATS WHILE CREATING STAGES
+========================================*/
+
+-- You can specify the file format while defining the stage and dont have to use file format while copying.
+CREATE OR REPLACE stage_with_csv
+FILE_FORMAT = csv_ff
+COMMENT = 'STAGE WILL USE csv_ff AS THE FILE FORMAT BY DEFAULT'
+
+
+CREATE OR REPLACE stage_with_csv
+COMMENT = 'NO FILE FILE FORMAT SET'
+
+
+
+
+
+
+
+
+
+
+/*======================================================
+LOAD AND QUERY PARQUET DATA FROM A NAMED INTERNAL STAGES
+======================================================*/
+
+CREATE OR REPLACE TEMPORARY TABLE cities 
+(
+    continent varchar default null,
+    country varchar default null,
+    city VARIANT default null
+);
+
+
+-- Create a file format
+CREATE OR REPLACE FILE FORMAT parquet_ff 
+TYPE = 'PARQUET';
+
+
+-- Create a stage
+CREATE OR REPLACE STAGE cities_parquet_stage
+FILE_FORMAT = parquet_ff;
+
+
+-- Stage the data
+co2trading#COMPUTE_WH@RAW.PUBLIC> PUT file:///C:/Users/sahee/OneDrive/Desktop/Repositories/Snowflake/Datasets/cities.parquet @cities_parquet_stage;
++----------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source         | target         | source_size | target_size | source_compression | target_compression | status   | message |
+|----------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| cities.parquet | cities.parquet |         866 |         880 | PARQUET            | PARQUET            | UPLOADED |         |
++----------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 2.997s
+
+
+-- the staged data into the target table
+
+COPY INTO cities
+FROM 
+    (SELECT $1:continent::VARCHAR,
+            $1:country:name::VARCHAR,
+            $1:country:city::VARIANT
+    FROM @cities_parquet_stage/cities.parquet
+    );
+
+
+SELECT * FROM cities;
+
+/* RESULT
+CONTINENT		COUNTRY		CITY
+Europe			France		[   "Paris",   "Nice",   "Marseilles",   "Cannes" ]
+Europe			Greece		[   "Athens",   "Piraeus",   "Hania",   "Heraklion",   "Rethymnon",   "Fira" ]
+North America	Canada		[   "Toronto",   "Vancouver",   "St. John's",   "Saint John",   "Montreal",   "Halifax",   "Winnipeg",   "Calgary",   "Saskatoon",   "Ottawa",   "Yellowknife" ]
+*/
+
+
+// ADDITIONALLY, We could Unload the CITIES table into another Parquet file.
+
+COPY INTO @cities_parquet_stage/OUT/parquet_
+FROM 
+    (SELECT continent,
+            country,
+            c.value::STRING AS city
+     FROM cities,
+     LATERAL FLATTEN(input => city) AS c)
+FILE_FORMAT = (type = 'parquet')
+HEADER = true;
+-- The header=true option directs the command to retain the column 
+-- In the nested SELECT query: The FLATTEN function first flattens the city column array elements into separate columns.
+-- The LATERAL modifier joins the output of the FLATTEN function with information outside of the object - in this example, the continent and country.
+-- You could also have PARSE = TRUE to have the files removed after successful copying
+
+LIST @cities_parquet_stage;
+/*
+name	size	md5	last_modified
+cities_parquet_stage/OUT/parquet__0_0_0.snappy.parquet	1,136	51009c7c21f3b8c152a0a55bfd672c1c	Thu, 11 May 2023 18:21:09 GMT
+cities_parquet_stage/cities.parquet	                      880	d459820bb13b9da4d885e1840f2d9ada	Thu, 11 May 2023 18:11:17 GMT
+*/
+
+-- OR
+
+SELECT t.$1 FROM @cities_parquet_stage/OUT/ t;
+ 
+/* RESULT
+$1
+{   "CITY": "Paris",   "CONTINENT": "Europe",   "COUNTRY": "France" }
+{   "CITY": "Nice",   "CONTINENT": "Europe",   "COUNTRY": "France" }
+{   "CITY": "Marseilles",   "CONTINENT": "Europe",   "COUNTRY": "France" }
+{   "CITY": "Cannes",   "CONTINENT": "Europe",   "COUNTRY": "France" }
+{   "CITY": "Athens",   "CONTINENT": "Europe",   "COUNTRY": "Greece" }
+{   "CITY": "Piraeus",   "CONTINENT": "Europe",   "COUNTRY": "Greece" }
+{   "CITY": "Hania",   "CONTINENT": "Europe",   "COUNTRY": "Greece" }
+{   "CITY": "Heraklion",   "CONTINENT": "Europe",   "COUNTRY": "Greece" }
+{   "CITY": "Rethymnon",   "CONTINENT": "Europe",   "COUNTRY": "Greece" }
+{   "CITY": "Fira",   "CONTINENT": "Europe",   "COUNTRY": "Greece" }
+{   "CITY": "Toronto",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Vancouver",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "St. John's",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Saint John",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Montreal",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Halifax",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Winnipeg",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Calgary",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Saskatoon",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Ottawa",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+{   "CITY": "Yellowknife",   "CONTINENT": "North America",   "COUNTRY": "Canada" }
+*/
+
+
+// REMOVE THE SUCCESSFULLY COPIED DATA FILES
+-- After you verify that you successfully copied data from your stage into the tables, you can remove data files from the internal stage using the REMOVE command to save on data storage.
+REMOVE @cities_parquet_stage/cities.parquet;
+REMOVE @cities_parquet_stage/OUT/;
+
+LIST @cities_parquet_stage;
